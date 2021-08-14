@@ -1,0 +1,15 @@
+Project - Scene Implementation
+
+FILES-
+room1.py - 1. subscribed to control_center.
+	   2. gets scene to be implemented from control_center.
+	   3. takes device specifications of the scene from scenes.json file.
+	   4. publishes devices specifications for implementing scenes as dictionary in form of string.
+
+scenes.py - files has specifications for devices regarding various scenes.
+
+devices_r1.py - various devices subscribed to the room2.
+		1. Each device gets scene specification from room1.
+		2. Each device then finds its specifications and executes accordingly.
+
+dev_conf - contains capabilities of each device in the room.

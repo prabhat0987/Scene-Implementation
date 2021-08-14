@@ -1,0 +1,11 @@
+device configurations - 
+
+led - brightness - 0(off) to 100(max)
+    - color - any
+
+fan - 0(0ff)/1/2/3/4(max)   <based on rpm - 1(1/4 rpm), 2(1/2 rpm), 3(3/4 rpm), 4(max rpm)>
+
+ac - off
+   - on ( temp( in centigrade ) - 16 to 30 )
+
+speaker - volumn - 0(off) to 100(max)

@@ -1,0 +1,70 @@
+{
+    "status": {
+        "led": "off",
+        "fan": "off",
+        "ac": "off",
+        "speaker": "off"
+    },
+
+    "movie" :
+    {
+        "scene" : "movie",
+        "led_brightness" : 20,
+        "led_color" : "white",
+        "fan" : 2,
+        "ac" : 22,
+        "speaker" : 50
+    },
+
+    "sleep" :
+    {
+        "scene" : "sleep",
+        "led_brightness" : 0,
+        "led_color" : "",
+        "fan" : 3,
+        "ac" : 20,
+        "speaker" : 0
+    },
+
+    "games" :
+    {
+        "scene" : "games",
+        "led_brightness" : 30,
+        "led_color" : "green",
+        "speaker" : 60,
+        "ac" : 23,
+        "fan" : 0
+    },
+
+
+    "slightoff" :
+    {
+        "scene" : "soff",
+        "led_brightness" : 0,
+        "led_color" : "",
+        "fan" : 0,
+        "ac" : "off",
+        "speaker" : 0
+    },
+
+    "nlightoff" :
+    {
+        "scene" : "noff",
+        "led_brightness" : 0,
+        "led_color" : "",
+        "ac" : "21",
+        "fan" : 0,
+        "speaker" : 0
+    },
+
+    "slighton" :
+    {
+        "scene" : "son",
+        "led_brightness" : 100,
+        "led_color" : "yellow",
+        "ac" : "off",
+        "fan" : 4,
+        "speaker" : 0
+    }
+
+}
